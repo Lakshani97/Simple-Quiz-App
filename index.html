@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="buttons">
+        <button id="js">Javascript</button>
+        <button id="html">html</button>
+        <button id="css">css</button>
+    </div>
+        
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="start"></h2>
+        </div>
+        <div class="quiz-body" id="quizbody">
+            <h3 id="question">Javascript Questions</h2>
+            <ul>
+                <li>
+                    <input type="radio" id="a" class="answer" name="answer">
+                    <lable id="a_text" for="a">Question</lable>
+                </li>
+                <li>
+                    <input type="radio" id="b" class="answer" name="answer">
+                    <lable id="b_text" for="b">Question</lable>
+                </li>
+                <li>
+                    <input type="radio" id="c" class="answer" name="answer">
+                    <lable id="c_text" for="c">Question</lable>
+                </li>
+                <li>
+                    <input type="radio" id="d" class="answer" name="answer">
+                    <lable id="d_text" for="d">Question</lable>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+</body>
+
+</html>
